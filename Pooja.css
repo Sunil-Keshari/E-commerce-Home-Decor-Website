@@ -1,0 +1,183 @@
+#love {
+    background-color:rgb(170, 107, 117);
+    text-align: center;
+    font-size:30px;
+    cursor:pointer;
+    margin : 10px;
+    border : 2px solid rgb(52, 91, 4);
+    padding : 5px;
+    color:rgb(16, 16, 16);
+    border-radius:10px 10px 10px 10px;
+    background-size: cover;
+text-shadow : 5px 5px 1px rgba(64, 67, 65, 0.416);
+
+    }
+
+#ee{
+    background-color:rgb(170, 107, 117) ;
+    margin: 20px;
+    padding:20px;
+    font-weight: bold;
+    text-align: center;
+    border: 50px solid black;
+    color: rgb(170, 107, 117);
+  }
+
+  .qq{
+    color: rgb(19, 18, 18);
+    font-weight: bold;
+    font-size: 13px;
+    font-size: 20px;
+    object-fit: cover;
+    gap: 25px;
+    margin:3px;
+  }
+
+  #vk{
+    display:flex;
+    color: black;
+    background-color: white;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  #op{
+    color: rgb(183, 4, 4);
+    background-color:rgba(29, 149, 149, 0.205);
+    font-weight: 500;
+    cursor:help;
+    align-items: center;
+    font-size: 40px;
+    text-align: center;
+  }
+
+
+   #sec{
+    color: rgb(79, 71, 73);
+    background-color: rgba(68, 143, 143, 0.188);
+    font-weight: bold;
+    text-overflow: clip;
+    text-wrap:wrap;
+   }
+
+   .cart{
+    background-color:rgb(170, 107, 117);
+    color:rgb(243, 237, 237);
+    border:1px solid black;
+    width:200px;
+    height:40px;
+    border-radius: 5px;
+   }
+
+   body{
+    margin:0px;
+    padding:0px;
+   }
+   .pr{
+    color:rgb(68, 143, 143);
+    font-weight: bold;
+    margin:2px;
+    padding:2px;
+    display: flex;
+   }
+   .yu{
+    color:rgb(52, 91, 4);
+    font-weight: bold;
+    font-size: 13px;
+    object-fit: cover;  
+   }
+   body{
+    object-fit: cover;
+   }
+   .lp{
+    color: rgb(170, 107, 117);
+    font-weight: bold;
+    font-size: 12px;
+    display: flex;
+    object-fit: cover;
+    word-wrap: break-word;
+    background-size: cover;
+    width:100%;
+   }
+   
+   .anay{
+    display: grid;
+    gap:10px;
+    grid-template-columns: repeat(3,1fr);
+    color: black;
+    font-weight:bold;
+    text-wrap: wrap;
+    background-color: rgb(181, 138, 145);
+   }
+
+   .sp{
+    font-weight: bolder;
+    font-size: medium;
+   }
+
+   #PL{
+    color: black;
+    font-weight: bold;
+    text-align: right;
+    text-decoration:underline;
+    cursor: grab;
+    margin-bottom: 5px;
+    margin-top: 5px;
+   }
+   #lov{
+    color:rgb(52, 91, 4);
+    font-size:20px;
+    font-weight: bold;
+   }
+#ff{
+    text-decoration: underline;
+    background-color: rgba(141, 181, 112, 0.336);
+}
+
+/* Can use Media Query for Responsive design but i have less Time for it. Hope you will undertstand*/
+
+/* Mobile Breakdown*/
+ @media (Max-width:479px){
+    .anay{
+        text-wrap: wrap;
+        background-color: rgb(49, 173, 178);
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .an{
+        text-wrap:wrap;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .cart{
+        background-color: rgb(194, 226, 33);
+        
+        color: rgb(8, 9, 9);
+        flex-wrap: wrap;
+        display: flex;
+        .lp{
+        display: flex;  
+        flex-wrap: wrap;
+        }
+        #vk{
+            flex-wrap: wrap;
+        display: flex;
+
+        }
+        .yu{
+            flex-wrap: wrap;
+            display: flex;
+            object-fit: cover;  
+        }
+    }
+}
+
+/* Desktop Breakdown
+Use @media (Min-width:1024px px){
+
+} */
+
+
+
+
+      
